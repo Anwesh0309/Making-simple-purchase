@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment files — NEVER commit API keys
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Temp
+reference.js
